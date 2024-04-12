@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro Pucci</title>
+    <link rel="stylesheet" href="css/formulario.css">
+</head>
+<body>
+<div id="corpo">
+    <header>
+        <h1>Loja de Roupas PUCCI</h1>
+    </header>
+    <main>
+        <h2>Cadastro</h2>
+        <form id="cadastroForm" action="outra_pagina.html" method="GET">
+            <fieldset>
+                <legend>Dados Pessoais</legend>
+                <label>
+                    Nome: <input type="text" name="txt_nome" placeholder="Nome Completo" required />
+                </label>
+                <label class="label-50">
+                    E-mail: <input type="email" name="txt_email" placeholder="Seu e-mail" required />
+                </label>
+                <label class="label-50">
+                    Telefone: <input type="number" name="txt_telefone" placeholder="Seu telefone" required />
+                </label>
+                <label class="label-50">
+                    RG: <input type="number" name="txt_rg" placeholder="Insira seu RG" required />
+                </label>
+                <label class="label-50">
+                    CPF: <input type="number" name="txt_cpf" placeholder="Somente números" required />
+                </label>
+                <label class="label-50">
+                    Data de Nascimento: <input type="date" name="txt_data_nasc" required />
+                </label>
+            </fieldset>
+            <fieldset>
+                <legend>Endereço</legend>
+                <label class="label-50">
+                    Rua: <input type="text" name="txt_rua" required />
+                </label>
+                <label class="label-50">
+                    Bairro: <input type="text" name="txt_bairro" required />
+                </label>
+                <label class="label-50">
+                    Cidade: <input type="text" name="txt_cidade" required />
+                </label>
+                <label class="label-50">
+                    Estado:
+                    <select>
+                        <option value="">Selecione...</option>
+                        <option value="SP">São Paulo</option>
+                        <option value="RJ">Rio de Janeiro</option>
+                    </select>
+                </label>
+            </fieldset>
+            <p class="center">
+                <button type="button" class="botao-enviar">Enviar</button>
+                <button type="reset">Limpar</button>
+                <button ><a href="index.html">Voltar</a></button>
+            </p>
+        </form>
+    </main>
+</div>
+
+</body>
+</html>

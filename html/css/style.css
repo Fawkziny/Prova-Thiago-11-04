@@ -1,0 +1,79 @@
+#video {
+    position: relative;
+    left: 850px;
+    bottom: 920px;
+    width: 10px;
+    height: 10px;
+}
+
+#sobre-nos {
+    margin-top: 2%;
+    display: flex;
+}
+#sobre-nos article {
+    background: #a355ec;
+    width: 42%;
+    margin: 1%;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 1px 2px 3px rgba(0, 0, 0, .1);
+    text-align: center;
+    box-sizing: border-box;
+}
+
+#sobre-nos article {
+    width: 100%;
+    text-align: center;
+    padding: 1%;
+}
+
+#sobre-nos article p {
+    margin-bottom: 5%;
+    line-height: 25px;
+}
+
+article h3 {
+    text-transform: uppercase;
+}
+
+#fotos {
+    width: 40%;
+    margin-left: 4%;
+}
+
+figure {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 1px;
+    margin: 1%;
+    text-align: center;
+}
+
+img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+figcaption {
+    background-color: #222;
+    border-radius: 10px;
+    color: #fff;
+    padding: 3px;
+    text-align: center;
+}
+#corpo {
+    background: rgb(255,0,159);
+    background: linear-gradient(180deg, rgba(255,0,159,1) 1%, rgba(95,9,121,1) 54%, rgba(152,38,153,1) 98%);
+    border: 1px solid #e21ea1;
+    border-radius: 10px;
+    box-shadow: 1px 2px 3px rgba(0, 0, 0, .1);
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.fonte {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
